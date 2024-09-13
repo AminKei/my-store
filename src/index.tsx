@@ -3,8 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { Route, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import Login from "./Pages/Login/Login";
+import Regester from "./Pages/Regester/Regester";
+import Cart from "./Pages/Cart/Cart";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
