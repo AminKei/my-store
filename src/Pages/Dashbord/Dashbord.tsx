@@ -1,7 +1,7 @@
 const Dashbord = () => {
     return(
         <div>
-            <h1>Cart</h1>
+            <h1>Dashboard Page :</h1>
         </div>
     )
 }
