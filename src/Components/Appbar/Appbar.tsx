@@ -8,19 +8,20 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Appbar() {
   return (
-    <Navbar expand="lg" >
+    <Navbar expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">My Store</Navbar.Brand>
+        <Navbar.Brand href="#">
+          <h4>My Store</h4>
+        </Navbar.Brand>
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
-          >
-          </Nav>
-        <Button variant="primary">
-          Cart: <Badge>0</Badge>
-        </Button>
+          ></Nav>
+          <Button variant="primary">
+            Cart: <Badge>0</Badge>
+          </Button>
           <Form className="d-flex">
             <Form.Control
               type="search"

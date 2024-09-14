@@ -17,7 +17,10 @@ const queryClient = new QueryClient();
 
 root.render(
   <QueryClientProvider client={queryClient}>
-    <App />
+    <App /> 
+    {/* <Login/> */}
+    {/* <Regester/> */}
+    {/* <Cart /> */}
   </QueryClientProvider>
 );
 

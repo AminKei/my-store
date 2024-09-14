@@ -1,9 +1,13 @@
-.root-products-filter{
+.root-products-filter {
   justify-content: center;
   align-items: center;
   display: flex;
 }
-
+.root-divs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 .root-conteiner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,14 +19,17 @@
   margin-right: 2vh;
 }
 
-
-.Child-root{
+.Child-root {
   box-shadow: rgb(192, 192, 192) 1px 1px 10px 1px;
   padding: 20px;
 }
+.image-products {
+  width: 100%;
+  height: 230px;
+}
 
-@media only screen and (max-width:900px) {
-  .root-conteiner{
+@media only screen and (max-width: 900px) {
+  .root-conteiner {
     display: grid;
     width: 100%;
     margin: 2vh;
@@ -31,9 +38,12 @@
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     padding-right: 20px;
-    padding-left  : 20px;
+    padding-left: 20px;
   }
-  .Child-root{
+  .Child-root {
     padding: 5px;
+  }
+  .image-products {
+    width: 100%;
   }
 }

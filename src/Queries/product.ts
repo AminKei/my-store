@@ -8,3 +8,4 @@ export const getProducts = async () => {
   );
   return r.data;
 };
+
