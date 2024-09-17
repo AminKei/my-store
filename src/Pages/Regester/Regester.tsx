@@ -55,7 +55,7 @@ const Regester = () => {
           <Form.Check type="checkbox" label="Check me out" />  
         </Form.Group>  
         <Button variant="primary" type="submit" disabled={loading}>  
-          {g ? "Loading..." : "Submit"}  
+          {loading ? "Loading..." : "Submit"}  
         </Button>  
       </Form>  
     </div>  
