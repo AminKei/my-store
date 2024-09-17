@@ -4,7 +4,7 @@ import { Accordion, Button } from "react-bootstrap";
 function FilterConteiner() {
   return (
     <>
-      <Accordion defaultActiveKey="0" style={{ width: "23%" }}>
+      <Accordion  style={{ width: "25%" }}>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Sort by :</Accordion.Header>
           <Accordion.Body>

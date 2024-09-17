@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div style={{ margin: "1vh" }}>
-      <Appbar />
+    
       <h3 style={{ margin: "1vh" }}>Products List</h3>
 
       <div className="root-divs">
@@ -23,7 +23,11 @@ function App() {
           {error && <h1>network has error ... please try later ...</h1>}
           {data?.map((item, key) => {
             return (
-              <div key={key} className="Child-root">
+              <div
+                key={key}
+                className="Child-root"
+                onClick={() => (document.location = `/Product?id=${item.id}`)}
+              >
                 <img
                   src={item.images[0]}
                   alt=""
