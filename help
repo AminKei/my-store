@@ -1,0 +1,9 @@
+how to create a page from components to model:
+
+Page -> ReactQuery hook -> Query  function (post | get) -> Model
+
+but it is better to define from last to first , so :
+1. Create a file to define some model (like product.ts in models)
+2. Create a file to define some queries (post or get like product.ts in Queries)
+3. Create a file to define some hooks with reactQuery (like useProduct in Hooks)
+4. Use from above hook in pages or components (Like useProduct usage in Pages/Prodcut )

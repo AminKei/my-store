@@ -9,7 +9,7 @@ import Login from "./Pages/Login/Login";
 import Cart from "./Pages/Cart/Cart";  
 import Product from "./Pages/Product/Product";  
 import Appbar from "./Components/Appbar/Appbar";  
-import Regester from "./Pages/Regester/Regester";
+import Register from "./Pages/Register/Register";
 
 const root = ReactDOM.createRoot(  
   document.getElementById("root") as HTMLElement  
@@ -28,7 +28,7 @@ const AppWrapper = () => {
         <Route path="/" element={<App />} />  
         <Route path="/Product" element={<Product />} />  
         <Route path="/login" element={<Login />} />  
-        <Route path="/register" element={<Regester />} /> {/* Fixed typo in the usage */}  
+        <Route path="/register" element={<Register />} /> {/* Fixed typo in the usage */}  
         <Route path="/cart" element={<Cart />} />  
         <Route path="*" element={<h1>Page Not Found</h1>} />  
       </Routes>  
